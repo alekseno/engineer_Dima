@@ -1,0 +1,21 @@
+1. В стороке поиска проекта прописать cmd
+В открывшемся окне:
+python -m venv venv
+
+2. В Vs Code выбрать интерпритатор ctrl+ Shift+ P 
+
+3. ctrl + ` -открывает окно с терминалом. Проверить в пути отображение venv
+
+4. в терминале прописать команду pip list. Должен отобразиться pip 25.3
+
+5. установить зависимости из файла requiremend
+pip install -r requirements.txt
+Проверить, что всё установилось pip list 
+
+6. Обновить pip: python.exe -m pip install --upgrade pip
+
+7. Перезапустить проект
+
+8. Открыть вкладку Output (рядом с терминалом)- идет запук сервера Pylance language server. Должна заработать колба
+
+pip install httpx
